@@ -1,6 +1,6 @@
 # Development Environment Configuration
 
-# About Raspberry Pi：
+## About Raspberry Pi：
 
 Raspberry Pi is a card computer whose official system is Raspberry Pi
 OS, which can be installed on other systems, such as: ubuntu, Windows
@@ -13,17 +13,17 @@ Furthermore, Raspberry Pi leads out 40Pin pins that can be connected to
 various sensors and control LEDs, motors, etc, making it can be used to
 create a robot.
 
-# Install the Raspberry Pi OS System：
+## Install the Raspberry Pi OS System：
 
-## 1\. **Tools needed for the Raspberry Pi system**：
+### 1\. **Tools needed for the Raspberry Pi system**：
 
-### 1.1.**Hardware Tool**：
+#### 1.1.**Hardware Tool**：
 
 （1）Raspberry Pi 4B/3B/2B （2）Above 16G TFT Memory Card
 
 （3）Card Reader （4）Computer and other parts
 
-### 1.2. Software tools that need to be installed：
+#### 1.2. Software tools that need to be installed：
 
 **Windows System：**
 
@@ -37,36 +37,36 @@ link：[<span class="underline">https://www.chiark.greenend.org.uk/\~sgtatham/pu
 ![](/media/d888918aa7bf9e5ea94597aad1ee4224.png)
 
 1.  After downloading the package file ![](/media/e597704d7033c7c3c5da06d4f561822c.png),
-    double-click it and tap “Next”.
-    
-    ![](/media/01f1b2d98915be2be9c0c2a3d330dde2.png)
+double-click it and tap “Next”.
+
+![](/media/01f1b2d98915be2be9c0c2a3d330dde2.png)
 
 2.  Click “Next”.
-    
-    ![](/media/bd698753a8eea7a2ff5c5e0e598cbd94.png)
+
+![](/media/bd698753a8eea7a2ff5c5e0e598cbd94.png)
 
 3.  Select“Install Putty files”， and click“Install”。
-    
-    ![](/media/071a0acc98bb2dc5cd45d85dec72d111.png)
+
+![](/media/071a0acc98bb2dc5cd45d85dec72d111.png)
 
 4.  After a few seconds, the installation is complete, click "Finish".
-    
-    ![](/media/ec368c3a549c09edd70f9786456d5430.png)
-    
-    **（2）Remote Login software -WinSCP**
-    
-    Download
-    link：[<span class="underline">https://winscp.net/eng/download.php</span>](https://winscp.net/eng/download.php)
+
+![](/media/ec368c3a549c09edd70f9786456d5430.png)
+
+**（2）Remote Login software -WinSCP**
+
+Download
+link：[<span class="underline">https://winscp.net/eng/download.php</span>](https://winscp.net/eng/download.php)
 
 <!-- end list -->
 
 1.  > After downloading the WinSCP software file![](/media/1719daa1002d7477ad4700e1df85d2df.png),
-    > double-click it then click![](/media/e09e48a32781d08aabb06156efe1de49.png).
-    
-    ![](/media/5ee80ade909fe3eb73dc9535704b4c0b.png)
-    
-    b. Click“Accept”，then select the appropriate option and click“Next”,
-    then click“Install”.
+> double-click it then click![](/media/e09e48a32781d08aabb06156efe1de49.png).
+
+![](/media/5ee80ade909fe3eb73dc9535704b4c0b.png)
+
+b. Click“Accept”，then select the appropriate option and click“Next”,
+then click“Install”.
 
 ![](/media/9c652f54f6a7d53f6b2aedba40104a00.png)
 
@@ -77,88 +77,88 @@ link：[<span class="underline">https://www.chiark.greenend.org.uk/\~sgtatham/pu
 ![](/media/49ffed878ee84546b156af3a0bf5556e.png)
 
 5.  After a few seconds, the installation is complete, click "Finish".
-    
-    ![](/media/14ffa1e11243835d30ffb933219dcef5.png)
-    
-    **（3）Format TFT card tool-- SD Card Formatter**
-    
-    Download link：
-    
-    [<span class="underline">http://www.canadiancontent.net/tech/download/SD\_Card\_Formatter.html</span>](http://www.canadiancontent.net/tech/download/SD_Card_Formatter.html)
-    
-    ![](/media/fa229f4e063572ce1c59574c308bf452.png)
-    
-    ![](/media/ac5d5eb9463805484b9239b99faf04eb.png)
+
+![](/media/14ffa1e11243835d30ffb933219dcef5.png)
+
+**（3）Format TFT card tool-- SD Card Formatter**
+
+Download link：
+
+[<span class="underline">http://www.canadiancontent.net/tech/download/SD\_Card\_Formatter.html</span>](http://www.canadiancontent.net/tech/download/SD_Card_Formatter.html)
+
+![](/media/fa229f4e063572ce1c59574c308bf452.png)
+
+![](/media/ac5d5eb9463805484b9239b99faf04eb.png)
 
 <!-- end list -->
 
 1.  > Unzip the SDCardFormatterv5\_WinEN package and double-click the SD
-    > Card Formatter file![](/media/8c6f8da97bf702080a8e302db2e9f982.png)to run it.
-    
-    ![](/media/046c67e4072093ee3dad27e8088fcf9f.png)
+> Card Formatter file![](/media/8c6f8da97bf702080a8e302db2e9f982.png)to run it.
+
+![](/media/046c67e4072093ee3dad27e8088fcf9f.png)
 
 2.  > Click“Next”，select“![](/media/13dc08ae2b5cb52ae3d7ea198134d778.png)”and click“Next”.
-    
-    ![](/media/384203e0b54ddfe37f18b65f70e786e5.png)
-    
-    ![](/media/cf4e91eac0c0573cff282256a915a01a.png)
+
+![](/media/384203e0b54ddfe37f18b65f70e786e5.png)
+
+![](/media/cf4e91eac0c0573cff282256a915a01a.png)
 
 3.  > Click “Next”again, and then click “Install”.
-    
-    ![](/media/0af58ee3afb14005a884ca2dc941157f.png)
-    
-    ![](/media/807623ddeea20c8b61503845d8aec9bc.png)
-    
-    d. After a few seconds, the installation is complete, click
-    "Finish".
-    
-    ![](/media/df2deb7e04c25ee207e994f0d2808194.png)
-    
-    **（4）Burn mirror system software tool--- Win32DiskImager**
-    
-    Download
-    link：[<span class="underline">https://sourceforge.net/projects/win32diskimager/</span>](https://sourceforge.net/projects/win32diskimager/)
-    
-    ![](/media/4ffb55fd466198ca9524afbde7806271.png)
+
+![](/media/0af58ee3afb14005a884ca2dc941157f.png)
+
+![](/media/807623ddeea20c8b61503845d8aec9bc.png)
+
+d. After a few seconds, the installation is complete, click
+"Finish".
+
+![](/media/df2deb7e04c25ee207e994f0d2808194.png)
+
+**（4）Burn mirror system software tool--- Win32DiskImager**
+
+Download
+link：[<span class="underline">https://sourceforge.net/projects/win32diskimager/</span>](https://sourceforge.net/projects/win32diskimager/)
+
+![](/media/4ffb55fd466198ca9524afbde7806271.png)
 
 <!-- end list -->
 
 1.  After downloading the software
-    file![](/media/63c3eaf215c92c325f95613c9d8d49ce.png)，double-click it and then click“Run”.
-    
-    ![](/media/0f86f055a814207b0b09e1a7e6cb20bc.png)
+file![](/media/63c3eaf215c92c325f95613c9d8d49ce.png)，double-click it and then click“Run”.
+
+![](/media/0f86f055a814207b0b09e1a7e6cb20bc.png)
 
 2.  > After selecting![](/media/5cdab33a0a7ddd4ab5b2ca8cb04670be.png)，and click“Next”.
 
 ![](/media/d70ecd0554cbdbd60997a2356b55dc0d.png)
 
 3.  > Click “Browse...”，select the location where Win32DiskImager is
-    > installed and click“Next”.
+> installed and click“Next”.
 
 ![](/media/1cdc2638bc1e9fe214344429f5e97a13.png)
 
 4.  > Click “Browse...”，select the location where Win32DiskImager is
-    > installed and click“Next”.
-    
-    ![](/media/cc7949bb335b75000e77b18c85e4e07b.png)
+> installed and click“Next”.
+
+![](/media/cc7949bb335b75000e77b18c85e4e07b.png)
 
 5.  > Select![](/media/99d088dd3f9e62d94fe8d56bd4638d1d.png)and click“Next”，and then
-    > click“Install”.
-    
-    ![](/media/c03510a9961a0e7307945dff10de3550.png)
-    
-    ![](/media/0c9c0d647479ee984fc29c3cedc72c79.png)
-    
-    d. After a few seconds, the installation is complete, click
-    "Finish".
-    
-    ![](/media/1d75c6dd9ea4a2c437a2b655b713a1db.png)
-    
-    （5）Scan for IP address software tool---WNetWatcher
-    
-    Download Link：http://www.nirsoft.net/utils/wnetwatcher.zip
+> click“Install”.
 
-### 1.3. Raspberry Pi mirror system
+![](/media/c03510a9961a0e7307945dff10de3550.png)
+
+![](/media/0c9c0d647479ee984fc29c3cedc72c79.png)
+
+d. After a few seconds, the installation is complete, click
+"Finish".
+
+![](/media/1d75c6dd9ea4a2c437a2b655b713a1db.png)
+
+（5）Scan for IP address software tool---WNetWatcher
+
+Download Link：http://www.nirsoft.net/utils/wnetwatcher.zip
+
+#### 1.3. Raspberry Pi mirror system
 
 Download link for the latest version：
 
@@ -166,17 +166,17 @@ Download link for the latest version：
 
 Download link for the old version：
 
-  - > Raspbian：
+- > Raspbian：
 
-  - > <span class="underline">https://downloads.raspberrypi.org/raspbian/images/</span>
+- > <span class="underline">https://downloads.raspberrypi.org/raspbian/images/</span>
 
-  - > Raspbian full：
+- > Raspbian full：
 
-  - > <span class="underline">https://downloads.raspberrypi.org/raspbian\_full/images/</span>
+- > <span class="underline">https://downloads.raspberrypi.org/raspbian\_full/images/</span>
 
-  - > Raspbian lite：
+- > Raspbian lite：
 
-  - > https://downloads.raspberrypi.org/raspbian\_lite/images/
+- > https://downloads.raspberrypi.org/raspbian\_lite/images/
 
 We use the 2020.05.28 version in the tutorial and recommend you to use
 this version(Please download this version as shown in the picture
@@ -219,65 +219,65 @@ SSH login function, as shown in the following figure:
 ![](/media/ffb73310322accd671da373bb2e71945.png)
 
 3.  Pull out the card reader.
-    
-    **2.4.Log in system:**
+
+**2.4.Log in system:**
 
 （The following operations require raspberry to share the same LOCAL area
 network with the PC）
 
 1.  Insert the burned TFT memory card into the Raspberry Pi, connect
-    internet cables and plug in power. If there is a screen and a HDMI
-    cable of Raspberry Pi, connect the screen, and you can see the
-    Raspberry Pi OS startup screen. If there is not a HDMI cable of
-    Raspberry Pi, you can enter the desktop of Raspberry Pi via SSH
-    remote login software---WinSCP and xrdp.
+internet cables and plug in power. If there is a screen and a HDMI
+cable of Raspberry Pi, connect the screen, and you can see the
+Raspberry Pi OS startup screen. If there is not a HDMI cable of
+Raspberry Pi, you can enter the desktop of Raspberry Pi via SSH
+remote login software---WinSCP and xrdp.
 
 2.  **Remote login**
-    
-    **Use WinSCP to log in using the default Raspberry Pi system
-    name、default user name、default password.**
-    
-    **Note that only a raspberry pi can be connected to a network.**
-    
-    ![](/media/0a41d5c629ec98afbc31dc47ff5c18ec.png)
-    
-    ![](/media/ff64e71b9e30df60d0b099dbc2532587.png)
-    
-    **（3）View the ip address and mac address**
-    
-    ![](/media/a4285a452978026c9e60c31d35974315.png)
-    
-    Click to open terminal and input the password: raspberry, and
-    tap“Enter”on keyboard.
-    
-    ![](/media/a433a9ee584c821a702d0250937e2ba8.png)
-    
-    ![](/media/7fb10d842cc7fd824a325d30fc3ecdc7.png)
-    
-    After successfully login, open the terminal, input **ip a** and
-    tap“Enter”keyboard to view the ip address and mac address.
-    
-    ![](/media/132e9ab754a0f63e38b3e4cfbc3679f2.png)
-    
-    From the above figure, mac address of this Raspberry Pi is
-    a6:32:17:61:9c, and ip address is 192.168.1.128(use ip address to
-    finish xrdp remote login).
-    
-    Since mac address never changes, you could confirm ip via mac
-    address when not sure which ip it is.
-    
-    **（4）Fix the IP address of Raspberry Pi**
-    
-    IP address is changeable, therefore, we need to make IP address
-    fixed for convenient use.
-    
-    Follow the below steps:
-    
-    Switch to root user
-    
-    If without root user’s password
-    
-    ① Set root password
+
+**Use WinSCP to log in using the default Raspberry Pi system
+name、default user name、default password.**
+
+**Note that only a raspberry pi can be connected to a network.**
+
+![](/media/0a41d5c629ec98afbc31dc47ff5c18ec.png)
+
+![](/media/ff64e71b9e30df60d0b099dbc2532587.png)
+
+**（3）View the ip address and mac address**
+
+![](/media/a4285a452978026c9e60c31d35974315.png)
+
+Click to open terminal and input the password: raspberry, and
+tap“Enter”on keyboard.
+
+![](/media/a433a9ee584c821a702d0250937e2ba8.png)
+
+![](/media/7fb10d842cc7fd824a325d30fc3ecdc7.png)
+
+After successfully login, open the terminal, input **ip a** and
+tap“Enter”keyboard to view the ip address and mac address.
+
+![](/media/132e9ab754a0f63e38b3e4cfbc3679f2.png)
+
+From the above figure, mac address of this Raspberry Pi is
+a6:32:17:61:9c, and ip address is 192.168.1.128(use ip address to
+finish xrdp remote login).
+
+Since mac address never changes, you could confirm ip via mac
+address when not sure which ip it is.
+
+**（4）Fix the IP address of Raspberry Pi**
+
+IP address is changeable, therefore, we need to make IP address
+fixed for convenient use.
+
+Follow the below steps:
+
+Switch to root user
+
+If without root user’s password
+
+① Set root password
 
 Input password in the terminal: sudo passwd root to set password.
 
@@ -391,16 +391,16 @@ Pi OS, as shown below:
 Now, we finish the basic configuration of the Raspberry Pi OS system.
 
 3.  ## Preparation of C language control basic hardware:
-    
-    [C](C:/Users/NINGMEI/AppData/Local/youdao/dict/Application/8.10.7.0/resultui/html/index.html#/javascript:;) [language](C:/Users/NINGMEI/AppData/Local/youdao/dict/Application/8.10.7.0/resultui/html/index.html#/javascript:;)
-    is a programming language with a considerably fast running speed.
-    There are numerous software and system core code written in it, such
-    as Linux system. Notably, hardware MCU and embedded class are not
-    exception. Thereby, it makes sense to learn the
-    [C](C:/Users/NINGMEI/AppData/Local/youdao/dict/Application/8.10.7.0/resultui/html/index.html#/javascript:;) [language](C:/Users/NINGMEI/AppData/Local/youdao/dict/Application/8.10.7.0/resultui/html/index.html#/javascript:;)
-    to control hardware.
 
-### **(1)Description of basic raspberry pi accessories：**
+[C](C:/Users/NINGMEI/AppData/Local/youdao/dict/Application/8.10.7.0/resultui/html/index.html#/javascript:;) [language](C:/Users/NINGMEI/AppData/Local/youdao/dict/Application/8.10.7.0/resultui/html/index.html#/javascript:;)
+is a programming language with a considerably fast running speed.
+There are numerous software and system core code written in it, such
+as Linux system. Notably, hardware MCU and embedded class are not
+exception. Thereby, it makes sense to learn the
+[C](C:/Users/NINGMEI/AppData/Local/youdao/dict/Application/8.10.7.0/resultui/html/index.html#/javascript:;) [language](C:/Users/NINGMEI/AppData/Local/youdao/dict/Application/8.10.7.0/resultui/html/index.html#/javascript:;)
+to control hardware.
+
+#### **(1)Description of basic raspberry pi accessories：**
 
 **Raspberry Pi 4B：**
 
@@ -424,7 +424,7 @@ learning kit. There are 40 pins.
 
 ![](/media/d232a87d73f7426894a6cafed80521a0.png)
 
-### **(2)Raspberry Pi +ESP32 mainboard + breadboard +USB cable, as shown below：**
+#### **(2)Raspberry Pi +ESP32 mainboard + breadboard +USB cable, as shown below：**
 
 ![](/media/57cc1390c1a7a0bdd3525a17d65867d3.jpeg)
 
@@ -448,16 +448,16 @@ Double-click the **2. Projects** file, as shown below.
 
 **Linux System（Raspberry Pi）：**
 
-## **1.Download and install Arduino IDE：**
+### **1.Download and install Arduino IDE：**
 
 （1）First, click on Raspberry Pi's browser.
 
 ![](/media/027fa8703101b0c296fbc82f9f246a36.png)
 
 2.  Enter the Official Arduino website in your browser：
-    
-    [www.arduino.cc/en/software](http://www.arduino.cc/en/software) , as
-    shown below:
+
+[www.arduino.cc/en/software](http://www.arduino.cc/en/software) , as
+shown below:
 
 ![](/media/64b964654fbdf403e42b61c753de120d.png)
 
@@ -514,38 +514,38 @@ Note：You need to download Arduino IDE 1.8.5 or advanced version to
 install the ESP32.
 
 1)  > Click![](/media/2ef5420fde334b93163b4a35e32e77dd.png) and
-    > click ![](/media/cc7c9f3977d8da562ba2e98a6246c6b5.png) to open the Arduino IDE.
-    
-    ![](/media/6d61bd9f09f10763899e43a873b8bc75.png)
+> click ![](/media/cc7c9f3977d8da562ba2e98a6246c6b5.png) to open the Arduino IDE.
+
+![](/media/6d61bd9f09f10763899e43a873b8bc75.png)
 
 <!-- end list -->
 
 2)  Click**“File**”→**“Preferences”**，copy the website address
-    <https://dl.espressif.com/dl/package_esp32_index.json> in
-    the“**Additional Boards Manager URLs:**”and click“**OK**” to save
-    the address.
-    
-    ![](/media/834b8fc35034df92b21b36956fb1b300.png)
+<https://dl.espressif.com/dl/package_esp32_index.json> in
+the“**Additional Boards Manager URLs:**”and click“**OK**” to save
+the address.
+
+![](/media/834b8fc35034df92b21b36956fb1b300.png)
 
 ![](/media/e509e8aece551e449ccb6ab6fffa0dc1.png)
 
 3.  Click“**Tools**”→“**Board:**”, then click “**Boards Manager...**”to
-    enter “**Boards Manager**” page . Enter“**esp32**”as follows and
-    select the latest version to Install. The installation package is
-    not large, click“**Install**”to start the installation.
-    
-    ![](/media/ca9d80ba478d379d40afe119d60ec8cf.png)
-    
-    ![](/media/b6d62e4c9cb8f530dc49b8ee92ecd76e.png)
-    
-    ![](/media/1eaf35ef0b85b62a54733c2887bbced6.png)
+enter “**Boards Manager**” page . Enter“**esp32**”as follows and
+select the latest version to Install. The installation package is
+not large, click“**Install**”to start the installation.
+
+![](/media/ca9d80ba478d379d40afe119d60ec8cf.png)
+
+![](/media/b6d62e4c9cb8f530dc49b8ee92ecd76e.png)
+
+![](/media/1eaf35ef0b85b62a54733c2887bbced6.png)
 
 <!-- end list -->
 
 4.  After a while, the ESP32 installation package is installed. Then
-    click “**Close**”.
-    
-    ![](/media/07d535a3532a58b15e79c9848ad8a019.png)
+click “**Close**”.
+
+![](/media/07d535a3532a58b15e79c9848ad8a019.png)
 
 ## 3.Arduino IDE Settings and Toolbars:
 
@@ -591,11 +591,10 @@ E- Used to save the sketch.
 F- Used to send the serial data received from board to the serial
 monitor.
 
-# 
 
-# **Import the Arduino C library** 
+## **Import the Arduino C library** 
 
-## What are Libraries ?
+### What are Libraries ?
 
 [Libraries ](https://www.arduino.cc/en/Reference/Libraries)are a
 collection of code that make it easy for you to connect sensors,
@@ -608,7 +607,7 @@ Internet for download.
 The built-in libraries and some of these additional libraries are listed
 in the reference. (https://www.arduino.cc/en/Reference/Libraries)
 
-## How to Install a Library ?
+### How to Install a Library ?
 
 Here we will introduce the most simple way to add libraries .
 
