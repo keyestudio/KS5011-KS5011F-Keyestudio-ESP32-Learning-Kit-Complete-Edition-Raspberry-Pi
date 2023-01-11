@@ -1,4 +1,4 @@
-**Mac System:**
+# Development Environment Configuration--Mac OS
 
 ![](/media/a6fc83596009c574d8e29ef383748549.png)
 
@@ -65,33 +65,33 @@ opening application on this disk image**”and click“**Open**”。
 ![](/media/29bbca3360d806164717733460574356.png)
 
 10. Select“**Select Open Security Preferences**”
-    
-    ![](/media/ca6bc6e536202f07a53c09201a0996ff.png)
-    
-    （11）Click on security lock and enter your user password to
-    authorize.
-    
-    ![](/media/cb6be428257143635fc4f729487549c5.jpeg)
-    
-    ![](/media/e8f637a3a9510aa8f90c65820d4d1cd8.jpeg)
+
+![](/media/ca6bc6e536202f07a53c09201a0996ff.png)
+
+（11）Click on security lock and enter your user password to
+authorize.
+
+![](/media/cb6be428257143635fc4f729487549c5.jpeg)
+
+![](/media/e8f637a3a9510aa8f90c65820d4d1cd8.jpeg)
 
 11.  When you see that the lock is opened, click "Allow".
-    
-    ![](/media/250a1cbb7f93fc2a572944bea9fe5494.jpeg)
-    
-    （13）Return to the installation interface and wait for the
-    installation as prompted.
-    
-    ![](/media/0da6d0d4296d6e3de0b30dfd3c615265.jpeg)
-    
-    （14）The installation is successful
-    
-    ![](/media/7cca827fe946096f228797dadce10661.jpeg)
-    
-    （15）Open arduinoIDE，click“**Tools**”and tap“**ESP32 Dev Module**”
-    and“**/dev/cu.usbserial-0001**”.
-    
-    ![](/media/00d823dbf27e569a2ba23277b1e15a41.jpeg)
-    
-    （16）Click![](/media/9c9158a5d49baa740ea2f0048f655017.png)to upload the program, and
-    you can see the program burned successfully
+
+![](/media/250a1cbb7f93fc2a572944bea9fe5494.jpeg)
+
+（13）Return to the installation interface and wait for the
+installation as prompted.
+
+![](/media/0da6d0d4296d6e3de0b30dfd3c615265.jpeg)
+
+（14）The installation is successful
+
+![](/media/7cca827fe946096f228797dadce10661.jpeg)
+
+（15）Open arduinoIDE，click“**Tools**”and tap“**ESP32 Dev Module**”
+and“**/dev/cu.usbserial-0001**”.
+
+![](/media/00d823dbf27e569a2ba23277b1e15a41.jpeg)
+
+（16）Click![](/media/9c9158a5d49baa740ea2f0048f655017.png)to upload the program, and
+you can see the program burned successfully
